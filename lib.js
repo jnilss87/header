@@ -1,3 +1,4 @@
-function echo(test) {
-    console.log(test)
+window.headerLib = window.headerLib || {}
+headerLib.mount = function(config) {
+    console.log(config)
 }
