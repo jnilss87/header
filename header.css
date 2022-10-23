@@ -12,27 +12,33 @@
 .headerBody nav {
   width: 100%;
   background-color: white;
-  padding-left: 30px;
-  padding-right: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .headerBody .logo {
-  display: inline-block;
+  display: flex;
+  width: calc(100%/3);
+  justify-content: center;
+}
+.headerBody .logo img {
+  width: 20%;
 }
 
 .headerBody .nav-links-right {
   list-style: none;
   display: flex;
   margin-left:auto;
+  justify-content: flex-end;
+  width: calc(100%/3);
 }
 
 .headerBody .nav-links-left {
   list-style: none;
   display: flex;
   margin-right:auto;
+  justify-content: flex-start;
+  width: calc(100%/3);
 }
 
 .headerBody .nav-item a {
@@ -50,7 +56,4 @@
   color: dodgerblue;
 }
 
-.headerBody .logo img {
-  width: 175px;
-  vertical-align: middle;
-}
+
